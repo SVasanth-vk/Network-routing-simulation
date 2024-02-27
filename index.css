@@ -1,0 +1,78 @@
+body{
+    background-color: hwb(180 16% 33%);
+}
+svg { 
+    border: 2px solid black ;
+}
+/* Modal dialog */
+/* Credit: https://www.w3schools.com/howto/howto_css_modals.asp */
+h2{
+    margin-top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.vals{
+   margin-top: 15%;
+   margin-left: 0%;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+.main{
+    display: flex;
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.title{
+    display: flex;
+}
+#savesvgbutton{
+    color: #aaa;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 17%;
+    max-height: 20px;
+    border-radius: 5px;
+}
+#savesvgbutton:hover{
+    color: orange;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 17%;
+    max-height: 20px;
+    border-radius: 5px;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#dijkstraSteps{
+   margin-left: 20%;
+   border-collapse:collapse ;
+   text-align: center;
+   border: 1.5px solid black;
+}
